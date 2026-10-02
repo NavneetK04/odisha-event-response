@@ -1,0 +1,6 @@
+event,lead_time_h,scenario,members,modelled_tiv,occupied_cells,off_grid_cells,off_grid_tiv,mean_gross_loss,median_gross_loss,max_gross_loss,p_zero_loss,losses_file
+Amphan,0,COMBINED_SENSITIVITY,500,1462261292896.104,17,0,0.0,0.0,0.0,0.0,1.0,/home/navneet/Projects/odisha-event-response/outputs/impact_benchmark/amphan_T0_combined_sensitivity_event_losses.csv
+Amphan,0,DIRTY,500,1465404071770.5652,18,0,0.0,0.0,0.0,0.0,1.0,/home/navneet/Projects/odisha-event-response/outputs/impact_benchmark/amphan_T0_dirty_event_losses.csv
+Amphan,0,P001_SENSITIVITY,500,1462261292896.104,17,0,0.0,0.0,0.0,0.0,1.0,/home/navneet/Projects/odisha-event-response/outputs/impact_benchmark/amphan_T0_p001_sensitivity_event_losses.csv
+Amphan,0,P003_SENSITIVITY,500,829721740437.1257,17,0,0.0,0.0,0.0,0.0,1.0,/home/navneet/Projects/odisha-event-response/outputs/impact_benchmark/amphan_T0_p003_sensitivity_event_losses.csv
+Amphan,0,PRIMARY,500,145684374688.50433,17,0,0.0,0.0,0.0,0.0,1.0,/home/navneet/Projects/odisha-event-response/outputs/impact_benchmark/amphan_T0_event_losses.csv

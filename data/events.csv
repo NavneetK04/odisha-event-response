@@ -1,0 +1,5 @@
+event,sid,landfall_time,landfall_lat,landfall_lon,landfall_method,coastline_dataset,imd_reference,imd_difference_min
+Fani,2019116N02090,2019-05-03T03:51:27,19.765304,85.756775,geometric_sea_to_land,Natural_Earth_10m,2019-05-03T03:30:00,-21
+Phailin,2013281N12098,2013-10-12T16:25:09,19.288445,84.954138,geometric_sea_to_land,Natural_Earth_10m,2013-10-12T17:00:00,-35
+Titli,2018281N14088,2018-10-10T22:34:26,18.613110,84.388326,geometric_sea_to_land,Natural_Earth_10m,2018-10-10T23:30:00,-56
+Amphan,2020136N10088,2020-05-20T10:42:54,21.814257,88.198464,geometric_sea_to_land,Natural_Earth_10m,2020-05-20T11:00:00,-17

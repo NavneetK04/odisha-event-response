@@ -1,0 +1,8 @@
+name: climada_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - climada
+  - jupyter
+prefix: /home/navneet/miniconda3/envs/climada_env

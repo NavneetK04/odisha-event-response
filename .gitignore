@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*Zone.Identifier
+.ipynb_checkpoints/
+.DS_Store
+
+# CLIMADA hazard objects
+outputs/hazard_benchmark/*.pkl
+
+# Run logs
+outputs/*.log
+
+# CLIMADA impact objects
+outputs/impact_benchmark/*.pkl

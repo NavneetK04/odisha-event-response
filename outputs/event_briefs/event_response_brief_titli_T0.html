@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Titli T-0h Event Response Brief</title>
+<style>
+ :root { --ink:#15181d; --muted:#5b6472; --line:#d9dee6; --bg:#ffffff;
+          --accent:#1d4ed8; --warn:#b45309; }
+ * { box-sizing:border-box; }
+ body { margin:0; padding:28px 16px; background:var(--bg); color:var(--ink);
+        font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+ .page { max-width:860px; margin:0 auto; }
+ header { border-bottom:2px solid var(--ink); padding-bottom:12px; margin-bottom:20px; }
+ h1 { font-size:22px; margin:0 0 4px; letter-spacing:-0.01em; }
+ .sub { color:var(--muted); font-size:13px; }
+ .action { border:2px solid var(--accent); border-radius:6px; padding:14px 16px;
+            margin:18px 0; }
+ .action .label { font-size:12px; text-transform:uppercase; letter-spacing:.08em;
+                   color:var(--muted); }
+ .action .verdict { font-size:20px; font-weight:700; color:var(--accent);
+                     margin:4px 0 6px; }
+ h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em;
+       color:var(--muted); margin:22px 0 8px; border-bottom:1px solid var(--line);
+       padding-bottom:5px; }
+ table { width:100%; border-collapse:collapse; font-size:14px; }
+ td { padding:6px 0; border-bottom:1px solid var(--line); }
+ td.n { text-align:right; font-variant-numeric:tabular-nums; font-weight:600; }
+ .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+          gap:14px; margin:14px 0; }
+ .stat { border:1px solid var(--line); border-radius:5px; padding:11px 13px; }
+ .stat .k { font-size:11px; text-transform:uppercase; letter-spacing:.06em;
+             color:var(--muted); }
+ .stat .v { font-size:19px; font-weight:700; font-variant-numeric:tabular-nums;
+             margin-top:3px; }
+ .caveat { background:#fffbeb; border-left:3px solid var(--warn);
+            padding:10px 14px; font-size:13px; margin:16px 0; }
+ footer { margin-top:26px; padding-top:12px; border-top:1px solid var(--line);
+           font-size:11.5px; color:var(--muted); }
+ @media print { body { padding:0; } }
+</style></head><body><div class="page">
+
+<header>
+ <h1>Titli &mdash; Event Response Brief, T-0h</h1>
+ <div class="sub">Forecast issued 2018-10-10 22:34 UTC &nbsp;&middot;&nbsp;
+  Projected landfall 2018-10-10 22:34 UTC &nbsp;&middot;&nbsp;
+  500-member forecast ensemble</div>
+</header>
+
+<div class="action">
+ <div class="label">Recommendation</div>
+ <div class="verdict">NO ACTION</div>
+ <div>Attachment probability 0% is well below the 50% threshold.</div>
+</div>
+
+<h2>Loss estimate</h2>
+<div class="grid">
+ <div class="stat"><div class="k">Central estimate (median)</div>
+   <div class="v">Rs 0.04B</div></div>
+ <div class="stat"><div class="k">Mean</div>
+   <div class="v">Rs 0.04B</div></div>
+ <div class="stat"><div class="k">P75 reserve</div>
+   <div class="v">Rs 0.07B</div></div>
+</div>
+
+<table>
+ <tr><td>P5 &ndash; P95 range</td>
+     <td class="n">Rs 0.00B &ndash; Rs 0.09B</td></tr>
+ <tr><td>P25 &ndash; P75 range</td>
+     <td class="n">Rs 0.00B &ndash; Rs 0.07B</td></tr>
+ <tr><td>Range relative to central estimate</td><td class="n">2.67x</td></tr>
+ <tr><td>Probability of no loss to this portfolio</td>
+     <td class="n">29.8%</td></tr>
+</table>
+
+<h2>Reinsurance position</h2>
+<table>
+ <tr><td>Layer</td>
+     <td class="n">Rs 10B xs Rs 12B</td></tr>
+ <tr><td>Probability of attachment</td>
+     <td class="n">0.0%</td></tr>
+ <tr><td>Probability of exhaustion</td>
+     <td class="n">0.0%</td></tr>
+ <tr><td>Expected recovery</td>
+     <td class="n">Rs 0.00B</td></tr>
+ <tr><td>Members attaching</td>
+     <td class="n">0 of 500</td></tr>
+</table>
+
+<h2>Where this uncertainty comes from</h2><table><tr><td>Track position, cross-track (landfall place)</td><td class='n'>89.6%</td></tr><tr><td>Interaction and higher order (not attributed)</td><td class='n'>5.7%</td></tr><tr><td>Track position, along-track (timing)</td><td class='n'>4.7%</td></tr><tr><td>Intensity</td><td class='n'>0.0%</td></tr></table>
+
+<div class="caveat">
+ <strong>Basis.</strong> Forecast uncertainty is sampled from IMD's published
+ 2020&ndash;2024 verification statistics, not from issued advisories. This is a
+ hindcast under a published error model. Losses are modelled economic losses on
+ a synthetic exposure portfolio, wind peril only: storm surge and rainfall
+ flooding are excluded and are material for this basin.
+</div>
+
+<footer>
+ Project 3, Cyclone Event Response. Landfall reference
+ 18.6131N 84.3883E, derived by
+ geometric sea to land on
+ Natural Earth 10m, within
+ 56 min of the IMD published reference.
+ Generated 2026-10-02 08:48 UTC. Every figure traces to a committed CSV.
+</footer>
+
+</div></body></html>

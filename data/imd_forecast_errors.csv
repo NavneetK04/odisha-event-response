@@ -1,0 +1,8 @@
+lead_time_h,track_error_km,track_n,landfall_point_error_km,landfall_n,landfall_time_error_h,intensity_mae_kt,intensity_rmse_kt,intensity_n,track_sigma_km,landfall_sigma_km,landfall_sigma_a_km,landfall_sigma_c_km,source_period,track_provenance,landfall_provenance,intensity_provenance
+0,5.000000,,5.000000,,0.000000,,5.000000,,3.989423,3.989423,3.989423,3.989423,assumed,assumed,assumed,assumed
+12,44.866834,398,10.530000,24,1.850000,3.384171,4.960727,398,35.798350,8.401676,52.400000,13.197398,2020-2024,imd_published,imd_published,imd_published
+24,71.969578,332,16.190000,23,2.890000,5.900000,7.900000,,57.423087,12.917677,84.470000,20.291156,2020-2024,imd_published,imd_published,imd_published
+48,110.943644,236,39.320000,19,4.190000,8.300000,11.000000,,88.519715,31.372642,120.250000,49.280312,2020-2024,imd_published,imd_published,imd_published
+72,154.028889,135,69.520000,10,7.450000,9.800000,19.200000,,122.896570,55.468618,154.000000,87.130399,2020-2024,imd_published,imd_published,imd_published
+96,182.694545,55,,,,,,,145.768324,,,,2020-2024,imd_published,no_data,no_data
+120,245.225000,28,,,,,,,195.660123,,,,2020-2024,imd_published,no_data,no_data
